@@ -5,10 +5,10 @@
     "npm": ">=7.0.0"
   },
   "scripts": {
-    "dev": "nuxt",
-    "build": "nuxt build",
-    "generate": "nuxt generate",
-    "start": "nuxt start",
+    "dev": "nuxi dev",
+    "build": "nuxi build",
+    "generate": "nuxi generate",
+    "start": "nuxi start",
     "lint": "eslint --cache --fix",
     "format": "prettier --write \"**/*.{js,jsx,json}\"",
     "prepare": "husky install"
